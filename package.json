@@ -1,0 +1,14 @@
+{
+  "name": "iotfarm-esp32-project",
+  "version": "1.0.0",
+  "description": "He thong Giam sat va Dieu khien Buong Uom PID ESP32",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
