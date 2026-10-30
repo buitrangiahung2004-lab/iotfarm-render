@@ -1264,6 +1264,7 @@
           <select id="connModeSelect" class="select" onchange="document.getElementById('ipField').hidden = this.value !== 'local'">
             <option value="local">Kết nối IP ESP32 (cùng mạng WiFi LAN)</option>
             <option value="sim">Mô phỏng (thử nhanh không cần mạch)</option>
+            <option value="cloud">Kết nối qua Server Render (Cloud / Từ xa)</option>
           </select></label>
         <label class="field" id="ipField"><span>IP hoặc địa chỉ HTTP/HTTPS của ESP32</span>
           <input id="espIpInput" class="input num" inputmode="url" autocomplete="off" spellcheck="false" placeholder="192.168.1.100 hoặc http://esp32.local" style="font-size:var(--t-lg)" onkeydown="if (event.key === 'Enter') saveConnConfig()" />
